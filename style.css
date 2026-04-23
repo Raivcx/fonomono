@@ -8,24 +8,24 @@
 
 /* --- Variáveis de Design --- */
 :root {
-  --cor-primaria: #8b6b9d;
-  --cor-primaria-dark: #694d7a;
-  --cor-primaria-light: #b08cc4;
-  --cor-acento: #dfb5d7;
+  --cor-primaria: #4a90e2;
+  --cor-primaria-dark: #357abd;
+  --cor-primaria-light: #7fbfff;
+  --cor-acento: #a2d5f2;
   --cor-dourado: #c9a96e;
-  --cor-bg: #fdfbff;
-  --cor-bg-alt: #f8f4fc;
-  --cor-texto: #3d3045;
-  --cor-texto-suave: #7e6f8a;
+  --cor-bg: #f5faff;
+  --cor-bg-alt: #ebf4ff;
+  --cor-texto: #1a2a3a;
+  --cor-texto-suave: #4a5a6a;
   --cor-branco: #ffffff;
-  --cor-borda: #ede6f5;
+  --cor-borda: #d6e8ff;
 
   --fonte-titulo: 'Cormorant Garamond', Georgia, serif;
   --fonte-corpo: 'Outfit', sans-serif;
 
-  --sombra-suave: 0 4px 24px rgba(124, 92, 142, 0.10);
-  --sombra-media: 0 8px 40px rgba(124, 92, 142, 0.18);
-  --sombra-forte: 0 16px 60px rgba(124, 92, 142, 0.25);
+  --sombra-suave: 0 4px 24px rgba(74, 144, 226, 0.10);
+  --sombra-media: 0 8px 40px rgba(74, 144, 226, 0.18);
+  --sombra-forte: 0 16px 60px rgba(74, 144, 226, 0.25);
 
   --raio: 16px;
   --raio-grande: 32px;
@@ -154,13 +154,13 @@ ul {
   border-radius: 50px;
   font-weight: 500 !important;
   transition: var(--transicao) !important;
-  box-shadow: 0 4px 16px rgba(124, 92, 142, 0.3);
+  box-shadow: 0 4px 16px rgba(74, 144, 226, 0.3);
 }
 
 .navbar-cta:hover {
   background: var(--cor-primaria-dark) !important;
   transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(124, 92, 142, 0.4) !important;
+  box-shadow: 0 6px 24px rgba(74, 144, 226, 0.4) !important;
 }
 
 .navbar-cta::after {
@@ -195,7 +195,7 @@ ul {
   display: flex;
   align-items: center;
   padding: 7rem 6% 4rem;
-  background: linear-gradient(135deg, #fdfbff 0%, #f7f0fb 50%, #f2e8f7 100%);
+  background: linear-gradient(135deg, #f5faff 0%, #edf5ff 50%, #e1efff 100%);
   position: relative;
   overflow: hidden;
 }
@@ -207,7 +207,7 @@ ul {
   right: -200px;
   width: 700px;
   height: 700px;
-  background: radial-gradient(circle, rgba(164, 126, 184, 0.18) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(74, 144, 226, 0.18) 0%, transparent 70%);
   border-radius: 50%;
   pointer-events: none;
 }
@@ -240,8 +240,8 @@ ul {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: rgba(124, 92, 142, 0.1);
-  border: 1px solid rgba(124, 92, 142, 0.2);
+  background: rgba(74, 144, 226, 0.1);
+  border: 1px solid rgba(74, 144, 226, 0.2);
   color: var(--cor-primaria);
   font-size: 0.78rem;
   font-weight: 500;
@@ -308,12 +308,12 @@ ul {
   transition: var(--transicao);
   border: none;
   cursor: pointer;
-  box-shadow: 0 6px 24px rgba(124, 92, 142, 0.35);
+  box-shadow: 0 6px 24px rgba(74, 144, 226, 0.35);
 }
 
 .btn-primario:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 36px rgba(124, 92, 142, 0.45);
+  box-shadow: 0 10px 36px rgba(74, 144, 226, 0.45);
 }
 
 .btn-secundario {
@@ -336,7 +336,7 @@ ul {
   background: var(--cor-primaria);
   color: var(--cor-branco);
   transform: translateY(-3px);
-  box-shadow: 0 8px 28px rgba(124, 92, 142, 0.3);
+  box-shadow: 0 8px 28px rgba(74, 144, 226, 0.3);
 }
 
 /* Imagem Hero */
