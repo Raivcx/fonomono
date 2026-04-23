@@ -8,17 +8,17 @@
 
 /* --- Variáveis de Design --- */
 :root {
-  --cor-primaria: #7c5c8e;
-  --cor-primaria-dark: #5a3f6b;
-  --cor-primaria-light: #a47eb8;
-  --cor-acento: #d4a5c9;
+  --cor-primaria: #8b6b9d;
+  --cor-primaria-dark: #694d7a;
+  --cor-primaria-light: #b08cc4;
+  --cor-acento: #dfb5d7;
   --cor-dourado: #c9a96e;
-  --cor-bg: #faf8fc;
-  --cor-bg-alt: #f3eef8;
-  --cor-texto: #2d2035;
-  --cor-texto-suave: #6e5f7a;
+  --cor-bg: #fdfbff;
+  --cor-bg-alt: #f8f4fc;
+  --cor-texto: #3d3045;
+  --cor-texto-suave: #7e6f8a;
   --cor-branco: #ffffff;
-  --cor-borda: #e5d9f0;
+  --cor-borda: #ede6f5;
 
   --fonte-titulo: 'Cormorant Garamond', Georgia, serif;
   --fonte-corpo: 'Outfit', sans-serif;
@@ -195,7 +195,7 @@ ul {
   display: flex;
   align-items: center;
   padding: 7rem 6% 4rem;
-  background: linear-gradient(135deg, #faf8fc 0%, #f0e8f7 50%, #e8d8f0 100%);
+  background: linear-gradient(135deg, #fdfbff 0%, #f7f0fb 50%, #f2e8f7 100%);
   position: relative;
   overflow: hidden;
 }
